@@ -1,0 +1,47 @@
+<html>
+
+<body>
+    <center>
+        <h1><i>Html 5 Forms</i></h1>
+    </center>
+    <form>
+        <fieldset>
+        <legend>
+          Your Details:
+        </legend>
+        <p>
+<label for="Name">Name:</label>
+<input required id="Name" type="text" input type="Name" size="15" maxlength="30" placeholder="Please Enter Your Name" />
+<p>
+   <label for="Email"> Email:</label>
+    <input required id="Emai" type="text" input type="Email" size="15" maxlength="30" placeholder="Please Enter Your Email"/>  
+        </p></fieldset>
+        <p>
+            <fieldset>
+           <legend> Your Review:</legend>
+        </p>
+        <p> How did you hear about us? <input type="number" placeholder="Google"> </p>
+        
+        <legend>Would You Visit Again?</legend>
+        <p>
+        <br/>
+        <input required id="radio" type="radio" name="genre" value="Yes" /> <label for="Yes">Yes</label>
+        <input rquired id="radio" type="radio" name="genre" value="No" /> <label for="No">No</label>
+        <input required id="radio" type="radio" name="genre" id="Maybe" /> <label for="Maybe">Maybe</label>
+     </p>
+     <p>
+        <legend>Comments:</legend>
+     </p>
+     <p><textarea name="Comments" cols="50" rows="5" placeholder="Please Input Your Comments" ></textarea></p>
+     <p>
+        <br/>
+        <input required id="checkbox" type="checkbox" name="service" value="Sign me up for email updates" checked="checked"/> <label for="Sign me up for email update">Sign me up for email updates</label>
+        <p>
+            <input id="submit" type="submit" name="submit" value="submit review" />
+     </p>
+    </fieldset>
+
+    </form>
+</body>
+
+</html>
